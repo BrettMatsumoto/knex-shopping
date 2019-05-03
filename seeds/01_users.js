@@ -7,8 +7,8 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex('users').insert([
         {email: 'test@email', password: 'huphup'},
-        {email: 'test@email', password: 'huphup'},
-        {email: 'test@email', password: 'huphup'}
+        {email: 'test2@email', password: 'shuphup'},
+        {email: 'test3@email', password: 'huphups'}
       ]);
     });
 };
